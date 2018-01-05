@@ -16,6 +16,7 @@
         <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="js/dracula_graffle.js"></script>
         <script type="text/javascript" src="js/dracula_graph.js"></script>
+        <link rel="stylesheet" href="hoverimage.css">
     </head>
     <body>
         <h1>Welcome to the ITM media library</h1>
@@ -49,18 +50,24 @@
                 // handle images
                 if ( medium instanceof ImageMedia ) {
                 	 // ***************************************************************
-                    //  Fill in your code here!
+                    //  Fill in your code here! done
                     // ***************************************************************
-                    
-                    // show the histogram of the image on mouse-over
+
+
+
                     
                     // display image thumbnail and metadata
                     ImageMedia img = (ImageMedia) medium;
                     %>
-                    <div style="width:200px;height:200px;padding:10px;">
+
+                        <div style="width:200px;height:200px;padding:10px;">
                         <a href="media/img/<%= img.getInstance().getName()%>">
                         <img src="media/md/<%= img.getInstance().getName() %>.thumb.png" border="0"/>
                         </a>
+                            <!--  show the histogram of the image on mouse-over and in CSS File-->
+                            <figure class="figure-top">
+                                <img style="width:200px;height:200px;padding:10px;position:absolute;" src="media/md/<%= img.getInstance().getName() %>.hist.png" border="0"/>
+                            </figure>
                     </div>
                     <div>
                         Name: <%= img.getName() %><br/>

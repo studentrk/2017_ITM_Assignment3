@@ -1,0 +1,14 @@
+.figure-top {
+    display: none;
+}
+a:hover .figure-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+a:hover + .figure-top {
+    display: inline;
+}

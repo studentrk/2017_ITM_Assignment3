@@ -170,7 +170,7 @@ public class ImageThumbnailGenerator
 
         // encode and save the image
         String imgFormat = "png";
-        outputFile = new File( output.getAbsolutePath() + "/" + input.getName() + "." + imgFormat );
+        outputFile = new File( output.getAbsolutePath() + "/" + input.getName() + ".thumb." + imgFormat );
         ImageIO.write( newImage2, imgFormat, outputFile );
         
 
