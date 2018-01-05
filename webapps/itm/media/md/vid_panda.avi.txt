@@ -1,0 +1,16 @@
+type: video
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/video/panda.avi
+name: panda.avi
+size: 2473984 bytes (2473kB)
+tags: video,
+videoCodec: cinepak
+videoCodecID: CODEC_ID_CINEPAK
+videoFrameRate: 25.0
+videoLength: 4
+videoHeight: 288
+videoWidth: 352
+audioCodec: mp3
+audioCodecID: CODEC_ID_MP3
+audioChannels: 2
+audioSampleRate: 44100
+audioBitRate: 192

@@ -1,0 +1,13 @@
+type: image
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/the_real_firefox_dithered.bmp
+name: the_real_firefox_dithered.bmp
+size: 88778 bytes (88kB)
+tags: image,bmp,
+width: 513
+height: 341
+nrOfImageComp: 3
+nrOfImageColComp: 3
+transparency: 1
+pixelSize: 4
+orientation: 0
+colorSpaceType: TYPE_RGB

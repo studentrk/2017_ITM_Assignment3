@@ -1,0 +1,16 @@
+type: video
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/video/DREIZEHN.AVI
+name: DREIZEHN.AVI
+size: 2655744 bytes (2655kB)
+tags: video,
+videoCodec: indeo3
+videoCodecID: CODEC_ID_INDEO3
+videoFrameRate: 14.999925000374999
+videoLength: 42
+videoHeight: 120
+videoWidth: 160
+audioCodec: pcm_u8
+audioCodecID: CODEC_ID_PCM_U8
+audioChannels: 1
+audioSampleRate: 22050
+audioBitRate: 176

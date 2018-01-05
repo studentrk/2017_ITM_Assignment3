@@ -1,0 +1,18 @@
+type: audio
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/audio/Amazon.mp3
+name: Amazon.mp3
+size: 5136860 bytes (5136kB)
+tags: audio,
+encoding: MPEG1L3
+duration: 4.17
+author: M.I.A.
+title: Amazon
+date: 2005
+comment: TunNORM
+album: Arular
+track: 7/13
+composer: Maya Arulpragasam, Richard X.
+genre: Hip Hop/Rap
+frequency: 44100
+bitrate: 160
+channels: 2

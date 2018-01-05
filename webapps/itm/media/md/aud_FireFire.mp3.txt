@@ -1,0 +1,18 @@
+type: audio
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/audio/FireFire.mp3
+name: FireFire.mp3
+size: 4178698 bytes (4178kB)
+tags: audio,
+encoding: MPEG1L3
+duration: 3.29
+author: M.I.A.
+title: Fire, Fire
+date: 2005
+comment: TunNORM
+album: Arular
+track: 5/13
+composer: Maya Arulpragasam, Anthony Whiting
+genre: Hip Hop/Rap
+frequency: 44100
+bitrate: 160
+channels: 2

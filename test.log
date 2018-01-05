@@ -1,0 +1,22 @@
+2018-01-05 13:01:03,705 [http-nio-8080-exec-2] DEBUG com.xuggle.xuggler - error: input frame height does not match expected value (../../../../../../../csrc/com/xuggle/xuggler/VideoResampler.cpp:166)
+2018-01-05 13:01:03,724 [http-nio-8080-exec-2] ERROR org.ffmpeg - [mp3 @ 0x7fbd6ae07c00] Header missing
+2018-01-05 13:01:03,819 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:01:03,821 [Finalizer] ERROR com.xuggle.xuggler - Disposing of dangling container but could not write trailer (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:564)
+2018-01-05 13:01:03,821 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2018-01-05 13:01:11,714 [http-nio-8080-exec-2] DEBUG com.xuggle.xuggler - error: input frame height does not match expected value (../../../../../../../csrc/com/xuggle/xuggler/VideoResampler.cpp:166)
+2018-01-05 13:01:11,737 [http-nio-8080-exec-2] ERROR org.ffmpeg - [mp3 @ 0x7fbd6a2fe400] Header missing
+2018-01-05 13:01:20,540 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:01:20,541 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:01:20,541 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:01:20,542 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:01:20,542 [Finalizer] ERROR com.xuggle.xuggler - Disposing of dangling container but could not write trailer (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:564)
+2018-01-05 13:01:20,542 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2018-01-05 13:13:44,941 [http-nio-8080-exec-2] DEBUG com.xuggle.xuggler - error: input frame height does not match expected value (../../../../../../../csrc/com/xuggle/xuggler/VideoResampler.cpp:166)
+2018-01-05 13:13:44,960 [http-nio-8080-exec-2] ERROR org.ffmpeg - [mp3 @ 0x7fa3c6216e00] Header missing
+2018-01-05 13:13:45,028 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:13:45,030 [Finalizer] ERROR com.xuggle.xuggler - Disposing of dangling container but could not write trailer (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:564)
+2018-01-05 13:13:45,030 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)
+2018-01-05 13:14:07,453 [http-nio-8080-exec-2] DEBUG com.xuggle.xuggler - error: input frame height does not match expected value (../../../../../../../csrc/com/xuggle/xuggler/VideoResampler.cpp:166)
+2018-01-05 13:15:28,775 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling Container (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:146)
+2018-01-05 13:15:28,775 [Finalizer] ERROR com.xuggle.xuggler - Disposing of dangling container but could not write trailer (../../../../../../../csrc/com/xuggle/xuggler/Container.cpp:564)
+2018-01-05 13:15:28,775 [Finalizer] DEBUG com.xuggle.xuggler - Closing dangling StreamCoder (../../../../../../../csrc/com/xuggle/xuggler/StreamCoder.cpp:96)

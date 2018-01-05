@@ -1,0 +1,13 @@
+type: image
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b17maartent1427.gif
+name: b17maartent1427.gif
+size: 5622 bytes (5kB)
+tags: image,gif,
+width: 50
+height: 38
+nrOfImageComp: 3
+nrOfImageColComp: 3
+transparency: 1
+pixelSize: 8
+orientation: 0
+colorSpaceType: TYPE_RGB

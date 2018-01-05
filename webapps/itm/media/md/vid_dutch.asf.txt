@@ -1,0 +1,16 @@
+type: video
+file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/video/dutch.asf
+name: dutch.asf
+size: 537391 bytes (537kB)
+tags: video,
+videoCodec: msmpeg4
+videoCodecID: CODEC_ID_MSMPEG4V3
+videoFrameRate: 41.833333333333336
+videoLength: 42
+videoHeight: 176
+videoWidth: 240
+audioCodec: wmav2
+audioCodecID: CODEC_ID_WMAV2
+audioChannels: 1
+audioSampleRate: 16000
+audioBitRate: 16
