@@ -1348,3 +1348,12 @@ Caused by: java.net.BindException: Address already in use
 05-Jan-2018 14:55:57.611 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
 05-Jan-2018 14:55:57.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
 05-Jan-2018 14:55:57.623 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5921 ms
+05-Jan-2018 18:29:31.359 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2018 18:29:31.360 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Jan-2018 18:29:31.427 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2018 18:29:31.482 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Jan-2018 18:29:31.515 SEVERE [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [itm] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@5adb38cc]) and a value of type [com.xuggle.ferry.JNIThreadProxy] (value [Thread[Thread-6,5,main]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+05-Jan-2018 18:29:31.526 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Jan-2018 18:29:31.537 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Jan-2018 18:29:31.538 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Jan-2018 18:29:31.539 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

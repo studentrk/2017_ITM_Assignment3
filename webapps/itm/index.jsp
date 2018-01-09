@@ -50,7 +50,7 @@
                 // handle images
                 if ( medium instanceof ImageMedia ) {
                 	 // ***************************************************************
-                    //  Fill in your code here! done
+                    //  Fill in your code here! DONE
                     // ***************************************************************
 
 
