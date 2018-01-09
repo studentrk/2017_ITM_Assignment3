@@ -21,7 +21,7 @@
     <body>
 
 
-        fill in your code here :)
+
         <%
 
             String tag = null;
@@ -47,13 +47,13 @@
 
         <%
             // ***************************************************************
-            //  Fill in your code here!
+            //  Fill in your code here! DONE
             // ***************************************************************
 
             // get all media objects that are tagged with the passed tag
 
 
-            // iterate over all available media objects and display them
+            // iterate over all available media objects and display them -> wird darunter in der For Schleife
 
 
             // get the file paths - this is NOT good style (resources should be loaded via inputstreams...)

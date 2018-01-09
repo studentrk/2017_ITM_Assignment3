@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/zebra3m.JPG
 name: zebra3m.JPG
 size: 100585 bytes (100kB)
-tags: image,JPG,
+tags: image,JPG,red,
 width: 800
 height: 532
 nrOfImageComp: 3

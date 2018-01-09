@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/elephant14m.JPG
 name: elephant14m.JPG
 size: 133854 bytes (133kB)
-tags: image,JPG,
+tags: image,JPG,red,
 width: 532
 height: 800
 nrOfImageComp: 3

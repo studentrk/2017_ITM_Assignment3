@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/picture_of_goat11.JPG
 name: picture_of_goat11.JPG
 size: 251126 bytes (251kB)
-tags: image,JPG,
+tags: image,JPG,red,
 width: 1024
 height: 681
 nrOfImageComp: 3

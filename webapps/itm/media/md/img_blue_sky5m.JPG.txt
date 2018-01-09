@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/blue_sky5m.JPG
 name: blue_sky5m.JPG
 size: 43083 bytes (43kB)
-tags: image,JPG,
+tags: image,JPG,blue,
 width: 800
 height: 532
 nrOfImageComp: 3

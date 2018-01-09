@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b17barb026.jpg
 name: b17barb026.jpg
 size: 261328 bytes (261kB)
-tags: image,jpg,
+tags: image,jpg,red,
 width: 1024
 height: 768
 nrOfImageComp: 3

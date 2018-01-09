@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b1shell008.jpg
 name: b1shell008.jpg
 size: 169426 bytes (169kB)
-tags: image,jpg,
+tags: image,jpg,red,
 width: 1341
 height: 1023
 nrOfImageComp: 3

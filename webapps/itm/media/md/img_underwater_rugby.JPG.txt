@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/underwater_rugby.JPG
 name: underwater_rugby.JPG
 size: 114081 bytes (114kB)
-tags: image,JPG,
+tags: image,JPG,green,
 width: 1024
 height: 768
 nrOfImageComp: 3

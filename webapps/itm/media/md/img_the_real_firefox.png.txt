@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/the_real_firefox.png
 name: the_real_firefox.png
 size: 330965 bytes (330kB)
-tags: image,png,
+tags: image,png,green,
 width: 513
 height: 341
 nrOfImageComp: 3

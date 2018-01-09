@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/blue_sky4m.JPG
 name: blue_sky4m.JPG
 size: 34711 bytes (34kB)
-tags: image,JPG,
+tags: image,JPG,blue,
 width: 532
 height: 800
 nrOfImageComp: 3

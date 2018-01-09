@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b2seaanimals005.jpg
 name: b2seaanimals005.jpg
 size: 510119 bytes (510kB)
-tags: image,jpg,
+tags: image,jpg,red,
 width: 1600
 height: 1200
 nrOfImageComp: 3

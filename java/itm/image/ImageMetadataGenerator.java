@@ -9,6 +9,7 @@ import itm.model.ImageMedia;
 import itm.model.MediaFactory;
 import jdk.jfr.events.FileWriteEvent;
 
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -134,11 +135,18 @@ public class ImageMetadataGenerator
         media.setHeight(img.getHeight());
         // add a tag "image" to the media
         media.addTag("image");
+        //media.addTag("hallooo");
         
         // add a tag corresponding to the filename extension of the file to the media 
         String inputName = input.getName();
         String extensionTag = inputName.substring(inputName.lastIndexOf(".") + 1);
         media.addTag(extensionTag);
+        //getDominantColors und mit for Schleife addTag
+
+        ArrayList<String> tags = getDominantColors(img);
+        for (String tag : tags) {
+            media.addTag(tag);
+        }
         // set orientation
         if(img.getHeight() < img.getWidth()){
             media.setOrientation(0);
@@ -168,6 +176,63 @@ public class ImageMetadataGenerator
 
 
         return media;
+    }
+
+    public ArrayList<String> getDominantColors(BufferedImage img) {
+        int imgHeight = img.getHeight();
+        int imgWidth = img.getWidth();
+        int redCounter = 0;
+        int greenCounter = 0;
+        int blueCounter = 0;
+        Color color;
+
+        for (int i = 0; i < imgWidth; i++)
+        {
+            for (int j = 0; j < imgHeight; j++)
+            {
+                color = new Color(img.getRGB(i, j));//Get the current pixel.
+
+                if (color.getRed() > color.getGreen() && color.getRed() > color.getBlue())//Checking pixel
+                {
+                    redCounter++;//increase counter
+
+                } else if (color.getGreen() > color.getBlue() && color.getGreen() > color.getRed())//Checking pixel
+                {
+                    greenCounter++;//increase counter
+
+                } else if (color.getBlue() > color.getRed() && color.getBlue() > color.getGreen())//Checking pixel
+                {
+                    blueCounter++;//increase counter
+                }
+            }
+        }
+        //System.out.println("Colours red: " + redCounter + "\n green: " + greenCounter + "\n blue: " + blueCounter);
+        int sumColours = redCounter + blueCounter + greenCounter;
+        int max = Math.max(redCounter, greenCounter);
+        max = Math.max(max, blueCounter);
+
+        ArrayList<String> tags = new ArrayList<String>();
+        int biggestDiff = 15;
+
+        if (max == redCounter) {
+            tags.add("red");
+        } else if (max == greenCounter) {
+            tags.add("green");
+        } else if (max == blueCounter) {
+            tags.add("blue");
+        }
+
+
+        return  tags;
+    }
+
+    public boolean isColourDominant(int max, int counter, int biggestDiff) {
+        int diff = max - counter;
+        if(Math.abs(diff) <= biggestDiff) {
+            return true;
+        } else {
+            return false;
+        }
     }
     
         

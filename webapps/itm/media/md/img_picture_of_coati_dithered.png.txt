@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/picture_of_coati_dithered.png
 name: picture_of_coati_dithered.png
 size: 144786 bytes (144kB)
-tags: image,png,
+tags: image,png,red,
 width: 1023
 height: 558
 nrOfImageComp: 4

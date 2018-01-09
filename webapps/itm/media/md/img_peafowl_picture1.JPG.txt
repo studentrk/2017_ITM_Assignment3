@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/peafowl_picture1.JPG
 name: peafowl_picture1.JPG
 size: 410113 bytes (410kB)
-tags: image,JPG,
+tags: image,JPG,red,
 width: 680
 height: 1024
 nrOfImageComp: 3

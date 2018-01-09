@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b20nature_plants245.jpg
 name: b20nature_plants245.jpg
 size: 1577295 bytes (1577kB)
-tags: image,jpg,
+tags: image,jpg,blue,
 width: 1920
 height: 2560
 nrOfImageComp: 3

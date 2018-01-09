@@ -53,8 +53,6 @@
                     //  Fill in your code here! DONE
                     // ***************************************************************
 
-
-
                     
                     // display image thumbnail and metadata
                     ImageMedia img = (ImageMedia) medium;

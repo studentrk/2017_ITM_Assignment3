@@ -2,7 +2,7 @@ type: image
 file: /Users/raphaelkolhaupt/Documents/ADesktop/Informatik17_18/ITM/Abgabe3/itm_skeleton_a3_SS17/assignment3/webapps/itm/media/img/b1murene.gif
 name: b1murene.gif
 size: 95967 bytes (95kB)
-tags: image,gif,
+tags: image,gif,red,
 width: 500
 height: 333
 nrOfImageComp: 3
