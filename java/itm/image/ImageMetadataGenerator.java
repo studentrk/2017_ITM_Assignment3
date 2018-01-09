@@ -192,17 +192,19 @@ public class ImageMetadataGenerator
             {
                 color = new Color(img.getRGB(i, j));//Get the current pixel.
 
-                if (color.getRed() > color.getGreen() && color.getRed() > color.getBlue())//Checking pixel
-                {
-                    redCounter++;//increase counter
+                if (!(color.getRed() == color.getGreen() && color.getRed() == color.getBlue())) {//so dass graue, schwarz und weiße Pixel ignoriert werden
+                    if (color.getRed() > color.getGreen() && color.getRed() > color.getBlue())//Checking pixel
+                    {
+                        redCounter++;//increase counter
 
-                } else if (color.getGreen() > color.getBlue() && color.getGreen() > color.getRed())//Checking pixel
-                {
-                    greenCounter++;//increase counter
+                    } else if (color.getGreen() > color.getBlue() && color.getGreen() > color.getRed())//Checking pixel
+                    {
+                        greenCounter++;//increase counter
 
-                } else if (color.getBlue() > color.getRed() && color.getBlue() > color.getGreen())//Checking pixel
-                {
-                    blueCounter++;//increase counter
+                    } else if (color.getBlue() > color.getRed() && color.getBlue() > color.getGreen())//Checking pixel
+                    {
+                        blueCounter++;//increase counter
+                    }
                 }
             }
         }
@@ -212,16 +214,19 @@ public class ImageMetadataGenerator
         max = Math.max(max, blueCounter);
 
         ArrayList<String> tags = new ArrayList<String>();
-        int biggestDiff = 15;
+        int biggestDiff = 150;
 
-        if (max == redCounter) {
-            tags.add("red");
-        } else if (max == greenCounter) {
-            tags.add("green");
-        } else if (max == blueCounter) {
-            tags.add("blue");
+        if (max != 0) {
+            if (max == redCounter || isColourDominant(max, redCounter, biggestDiff)) {
+                tags.add("red");
+            }
+            if (max == greenCounter || isColourDominant(max, greenCounter, biggestDiff)) {
+                tags.add("green");
+            }
+            if (max == blueCounter || isColourDominant(max, blueCounter, biggestDiff)) {
+                tags.add("blue");
+            }
         }
-
 
         return  tags;
     }
